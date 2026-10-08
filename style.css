@@ -3,3 +3,5 @@
 .crew-banner{padding-bottom:0!important}.crew-banner img{width:100%;display:block;border:1px solid #ffffff25}
 
 .feature-film{padding:50px 7% 65px!important}.feature-film h1{font-size:clamp(42px,5.5vw,86px);letter-spacing:-3px;margin:18px 0 35px}.feature-film>.play,.feature-film>iframe{width:100%;aspect-ratio:16/9;max-height:none;border:1px solid #ffffff25}.feature-film>.play span{font-size:14px;left:30px;bottom:30px}.feature-film>p:last-child{color:var(--muted);font-size:13px}.films{grid-template-columns:repeat(2,1fr)}@media(max-width:760px){.films{grid-template-columns:1fr}.feature-film h1{letter-spacing:-1px}.feature-film>.play span{font-size:10px;left:15px;bottom:15px}}
+
+.video-sticker{position:relative}.video-sticker .we-knew-it{position:absolute;z-index:2;right:-12px;top:-25px;width:clamp(100px,23%,175px);height:auto;transform:rotate(9deg);pointer-events:none;filter:drop-shadow(0 5px 7px #0008)}.video-sticker:has(iframe) .we-knew-it{display:none}#scandal{grid-column:1/-1;max-width:900px;width:100%;margin:25px auto 0}@media(max-width:760px){.video-sticker .we-knew-it{right:-8px;top:-20px;width:110px}}
